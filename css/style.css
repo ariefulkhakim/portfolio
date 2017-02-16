@@ -1,0 +1,315 @@
+/*General Style*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f9fbf2;
+}
+
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #222222;
+    outline: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.line {
+	padding-bottom: 50px;
+	border-bottom: 2px solid #a9bcd0;
+}
+
+.content-left {
+	position: relative;
+	border-right: 2px solid #a9bcd0;
+	padding: 0px 40px;	
+}
+
+.content-right {
+	position: relative;
+	border-left: 0px solid #a9bcd0;
+	padding: 0px 38px;
+}
+
+ /*Typographer*/
+
+ .title {
+ 	color: #048ad3;
+ 	font-weight: 500;
+ 	font-size: 25px;
+ 	padding-bottom: 5px;
+ }
+
+ .title-bar {
+ 	text-align: center;
+ }
+
+ .title-bar h2 {
+ 	font-size: 28px;
+ 	font-weight: 500;
+ 	color: #048ad3;
+	padding-bottom: 5px;
+ }
+
+/*Button*/
+
+.btn-home {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 10px 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    background-color: #048ad3;
+    color: #fff;
+}
+
+.btn-home:hover {
+	color: #000;
+	background-color: #fff;
+	border-color: #048ad3;
+	transition: .4s ease-in-out 0s;
+}
+
+/*Progress Bar*/
+
+.tooltip {
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+
+.tooltip > .tooltip-inner {
+	background-color: #a9bcd0;
+	padding: 5px 15px;
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+	border-radius: 0px;
+}
+
+.popup + .tooltip > .tooltip-arrow {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #a9bcd0;
+}
+
+.progress {
+	border-radius: 0;
+	overflow:  visible;
+}
+
+.progress-bar {
+	background: #048ad3;
+	transition: width 1.5s ease-in-out;
+}
+
+/*Navigation Bar*/
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    border-radius: 0px;
+    padding: 5px 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #048ad3;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*home*/
+
+.home {
+	position: relative;
+	padding-top: 50px;
+}
+
+.home .images {
+	text-align: right;
+}
+
+.home .title-home {
+	position: relative;
+	padding: 80px 0px;
+}
+
+.home .title-home p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+}
+
+.home .title-home h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #048ad3;
+}
+
+/*About*/
+
+.about {
+	position: relative;
+	padding-top: 50px;
+}
+
+.about .about-content {
+	text-align: right;
+}
+
+.about .about-content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-weight: 300;
+}
+
+.about .info-content ul {
+	list-style: none;
+	padding: 5px 0px;
+}
+
+.about .info-content ul li {
+	border-bottom: 2px solid #ddd;
+	padding: 6px 0px;
+}
+
+.about .info-content ul li h4 {
+	font-weight: 300;
+	color: #000;
+	font-size: 16px;
+}
+
+.about .info-content ul li span {
+	position: relative;
+	float: right;
+	text-align: right;
+	font-weight: 700;
+}
+
+/*Education*/
+
+.education {
+	position: relative;
+	padding-top: 50px;
+}
+
+.education .education-content {
+	text-align: right;
+}
+
+.education .other-left {
+    background: #fff;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+    text-align: left
+}
+
+.education .other-left h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+}
+
+.education .other-left span.other-date {
+    float: right;
+    margin-top: -30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background: #048ad3;
+    padding: 5px 10px;
+}
+
+.education .other-left h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.education .other-left p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/*Service*/
+
+.service {
+	position: relative;
+	padding-top: 50px;
+}
+
+.service .single-service {
+	border:1px solid #fff;
+	background: #fff;
+	text-align: center;
+	margin-top: 35px;
+	padding: 18px 30px;
+}
+
+.service .single-service:hover {
+	background-color: #048ad3;
+	border-color: transparent;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+	    -ms-transition: all .5s ease-in-out;
+	     -o-transition: all .5s ease-in-out;
+	        transition: all .5s ease-in-out;
+}
+
+.service .single-service:hover .icon-service .fa,
+.service .single-service:hover .text-service {
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+
+.service .single-service .icon-service .fa {
+	font-size: 40px;
+	padding: 10px 20px;
+	color: #000;
+}
+
+.service .single-service .text-service h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+}
+
+.service .single-service .text-service p {
+	font-size: 14px;
+	line-height: 23px;
+}
+
+/*Portfolio*/
+
+.portfolio {
+	position: relative;
+	padding-top: 50px;
+}
