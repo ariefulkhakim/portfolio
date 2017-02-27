@@ -6,16 +6,17 @@ Tag: Elegant,Simple,Responsive Mobile*/
 2. Typographer Style
 3. Button Style
 4. Progress Bar Style
-5. Navigation bar Style
-6. Home Style
-7. About Style
-8. Education Style
-9. Service Style
-10. Hire Style
-11. Portfolio Style
-12. Contact Style
-13. Footer Style
-14. Responsive Mobile*/
+5. Scroll Top Style
+6. Navigation bar Style
+7. Home Style
+8. About Style
+9. Education Style
+10. Service Style
+11. Hire Style
+12. Portfolio Style
+13. Contact Style
+14. Footer Style
+15. Responsive Mobile*/
 
 
 
@@ -161,6 +162,31 @@ ul,li {
 .progress-bar {
 	background: #048ad3;
 	transition: width 1.5s ease-in-out;
+}
+
+/*=========== Scroll Top Style =========== */
+
+.scrollup {
+    background: #048ad3 none repeat scroll 0 0;
+    border-radius: 0%;
+    bottom: 30px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+    height: 40px;
+    line-height: 35px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 9;
+}
+
+.scrollup:hover {
+    background: #1da5da;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 /*=========== Navigation Bar Style =========== */
@@ -448,7 +474,7 @@ ul,li {
 	border-radius: 0px;
 	cursor: pointer;
 	font-weight: 400;
-	color: #333; 
+	color: #111; 
 }
 
 .portfolio .filters li.active {
@@ -516,18 +542,19 @@ ul,li {
     font-size: 25px;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
 }
 
 .portfolio-content .overlay h4 {
     font-size: 18px;
     color: #fff;
     text-align: center;
-    padding-top: 7em;
+    padding-top: 6em;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     z-index: 9999;
 }
 
