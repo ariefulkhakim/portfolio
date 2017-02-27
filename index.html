@@ -34,12 +34,12 @@
     <![endif]-->
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- ===================
 	Navigation
 =================== -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -55,11 +55,11 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About Us</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class="active"><a class="smooth_scroll" href="#home">Home</a></li>
+				<li><a class="smooth_scroll" href="#about">About Us</a></li>
+				<li><a class="smooth_scroll" href="#service">Services</a></li>
+				<li><a class="smooth_scroll" href="#portfolio">Portfolio</a></li>
+				<li><a class="smooth_scroll" href="#contact">Contact</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
@@ -445,6 +445,8 @@
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Modernizr -->
 	<script src="js/modernizr-2.8.3.min.js"></script>
+	<!-- Progress Bar -->
+	<script src="js/progress.bar.js"></script>
 	<!-- Mixitup -->
 	<script src="js/mixitup.js"></script>
 	<!-- Magnific-Popup -->

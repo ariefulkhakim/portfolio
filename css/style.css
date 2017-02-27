@@ -1,9 +1,30 @@
-/*General Style*/
+/*Theme Name : Portfolio | Landing Page Is Simple
+Author: Arieful Khakim
+Tag: Elegant,Simple,Responsive Mobile*/
+
+/*1. General Style
+2. Typographer Style
+3. Button Style
+4. Progress Bar Style
+5. Navigation bar Style
+6. Home Style
+7. About Style
+8. Education Style
+9. Service Style
+10. Hire Style
+11. Portfolio Style
+12. Contact Style
+13. Footer Style
+14. Responsive Mobile*/
+
+
+
+/*=========== General Style =========== */
 
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    line-height: 1.42857143;
+	overflow-x: hidden;
     color: #333;
     background-color: #f9fbf2;
 }
@@ -24,6 +45,7 @@ img {
 ul,li {
 	list-style: none;
 }
+
 .line {
 	padding-bottom: 50px;
 	border-bottom: 2px solid #a9bcd0;
@@ -41,7 +63,7 @@ ul,li {
 	padding: 0px 30px;
 }
 
- /*Typographer*/
+ /*=========== Typographer Style =========== */
 
  .title {
  	color: #048ad3;
@@ -61,7 +83,7 @@ ul,li {
 	padding-bottom: 5px;
  }
 
-/*Button*/
+/*=========== Button Style =========== */
 
 .btn-home {
     position: relative;
@@ -108,9 +130,7 @@ ul,li {
 	        transition: .4s ease-in-out 0s;
 }
 
-
-
-/*Progress Bar*/
+/*=========== Progress Bar Style =========== */
 
 .tooltip {
 	position: relative;
@@ -143,7 +163,7 @@ ul,li {
 	transition: width 1.5s ease-in-out;
 }
 
-/*Navigation Bar*/
+/*=========== Navigation Bar Style =========== */
 
 .navbar-default {
     background-color: #fff;
@@ -167,11 +187,47 @@ ul,li {
     line-height: 20px;
 }
 
-/*home*/
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #048ad3;
+}
+
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #048ad3;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: #048ad3;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    background-color: #048ad3;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*=========== Home Style =========== */
 
 .home {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 .home .images {
@@ -195,7 +251,7 @@ ul,li {
 	color: #048ad3;
 }
 
-/*About*/
+/*=========== About Style =========== */
 
 .about {
 	position: relative;
@@ -236,7 +292,7 @@ ul,li {
 	font-weight: 700;
 }
 
-/*Education*/
+/*=========== Education Style =========== */
 
 .education {
 	position: relative;
@@ -288,7 +344,7 @@ ul,li {
     letter-spacing: 1px;
 }
 
-/*Service*/
+/*=========== Service Style =========== */
 
 .service {
 	position: relative;
@@ -338,7 +394,7 @@ ul,li {
 	color: #444;
 }
 
-/*Hire*/
+/*=========== Hire Style =========== */
 
 .hire {
 	position: relative;
@@ -365,7 +421,7 @@ ul,li {
     font-style: italic;
 }
 
-/*Portfolio*/
+/*=========== Portfolio Style =========== */
 
 .portfolio {
 	position: relative;
@@ -475,49 +531,7 @@ ul,li {
     z-index: 9999;
 }
 
-@media only screen and (max-width: 767px) {
-	.portfolio .filters li {
-        margin: 5px 2px;
-    }
-
-    .portfolio-content {
-    	margin-top: 20px;
-    	margin-right: 0px;
-    	margin-left: 3px;
-	}
-
-	.content-left {
-		border: none;
-		padding: 0px 20px;
-	}
-
-	.content-right {
-		padding: 0px 20px;
-	}
-
-	.about .about-content {
-		text-align: left;
-	}
-
-	.education .other-left span.other-date {
-		margin-top: -50px;
-		margin-right: -20px;
-	}
-
-	.home .title-home, .title {
-		text-align: center;
-	}
-
-	
-}
-
-@media only screen and (max-width: 320px) {
-	.contact ul.list-icon li {
-		margin: 0px 1px;
-	}
-}
-
-/*contact*/
+/*=========== Contact Style =========== */
 
 .contact {
 	position: relative;
@@ -594,7 +608,7 @@ ul,li {
 
 .contact ul.list-contact li {
 	display: block;
-	padding: 15px 0px;
+	padding: 18px 0px;
 	font-size: 15px;
 }
 
@@ -620,7 +634,7 @@ ul,li {
 .contact ul.list-icon li {
 	display: inline-block;
 	padding: 10px 10px;
-	margin: 0px 3px;
+	margin: 5px 3px;
 	border: 1px solid transparent;
 	border-radius: 50px;
 	text-align: center;
@@ -628,12 +642,20 @@ ul,li {
 	background-color: #ddd;
 }
 
+.contact ul.list-icon li:hover {
+	background-color: transparent;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	   -moz-transition: all 0.4s ease-in-out 0s;
+	    -ms-transition: all 0.4s ease-in-out 0s;
+	        transition: all 0.4s ease-in-out 0s;
+}
+
 .contact ul.list-icon i.fa {
 	font-size: 20px;
 	color: #048ad3;
 }
 
-/*footer*/
+/*=========== Footer Style =========== */
 
 .footer {
 	position: relative;
@@ -648,4 +670,45 @@ ul,li {
 
 .footer a {
 	color: #048ad3;
+}
+
+/*=========== Responsive Mobile Style =========== */
+
+@media only screen and (max-width: 767px) {
+	.portfolio .filters li {
+        margin: 5px 2px;
+    }
+
+    .portfolio-content {
+    	margin-top: 20px;
+    	margin-right: 0px;
+    	margin-left: 3px;
+	}
+
+	.content-left {
+		border: none;
+		padding: 0px 20px;
+	}
+
+	.content-right {
+		padding: 0px 20px;
+	}
+
+	.about .about-content {
+		text-align: left;
+	}
+
+	.education .other-left span.other-date {
+		margin-top: -50px;
+		margin-right: -20px;
+	}
+
+	.home .title-home, .title {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	
 }
