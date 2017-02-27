@@ -6,17 +6,18 @@ Tag: Elegant,Simple,Responsive Mobile*/
 2. Typographer Style
 3. Button Style
 4. Progress Bar Style
-5. Scroll Top Style
-6. Navigation bar Style
-7. Home Style
-8. About Style
-9. Education Style
-10. Service Style
-11. Hire Style
-12. Portfolio Style
-13. Contact Style
-14. Footer Style
-15. Responsive Mobile*/
+5. Preloader Style
+6. Scroll Top Style
+7. Navigation bar Style
+8. Home Style
+9. About Style
+10. Education Style
+11. Service Style
+12. Hire Style
+13. Portfolio Style
+14. Contact Style
+15. Footer Style
+16. Responsive Mobile*/
 
 
 
@@ -162,6 +163,31 @@ ul,li {
 .progress-bar {
 	background: #048ad3;
 	transition: width 1.5s ease-in-out;
+}
+
+/*=========== Preloader Style =========== */
+
+.preloader {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.status,
+.status-mes {
+    background-image: url(../images/loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
 }
 
 /*=========== Scroll Top Style =========== */

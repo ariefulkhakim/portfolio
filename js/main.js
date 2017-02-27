@@ -2,6 +2,12 @@
 	'use strict';
 	jQuery(document).ready(function(){
 
+	// Preloader
+	$(window).on('load', function() {
+        $('.preloader').fadeOut();
+        $('.preloader-area').delay(350).fadeOut('slow');
+    });
+
 	// Smooth Scroll
 	$('a.smooth_scroll').on("click", function (e) {
 		e.preventDefault();
